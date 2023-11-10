@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #292F36; /* Dark Slate Gray background */
+}
+
+.mystic-container {
+    max-width: 400px;
+    background: #464D59; /* SteelBlue container background */
+    border-radius: 16px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Verdana', sans-serif;
+    padding: 24px;
+    color: #fff;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.Temp-icon {
+    font-size: 45px;
+}
+
+h1 {
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+
+.mystic-input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.mystic-input-field {
+    flex: 5;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 16px 0 0 16px;
+    padding: 0 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+.mystic-icon {
+    flex: 1;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 24px;
+    background: #57606A; /* CadetBlue icon background */
+    color: #fff;
+    border-radius: 0 16px 16px 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.mystic-button {
+    margin-top: 25px;
+    text-align: center;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #57606A; /* CadetBlue button background */
+    color: #fff;
+}
+
+button:hover {
+    background: #444C56; /* Slightly darker CadetBlue on hover */
+}

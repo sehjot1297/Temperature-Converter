@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystic Thermometer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="TemperatureConverter.css">
+</head>
+
+<body>
+    <div class="mystic-container">
+        <div class="title">
+            <center>
+                <p>
+                <h1>Temperature Converter
+                    <p class="Temp-icon">
+                        <i class="fa-solid fa-temperature-three-quarters"></i>
+                    </p>
+                </h1>
+                </p>
+            </center>
+            <br>
+        </div>
+        <div class="mystic-input-group" id="celcius">
+            <input type="number" name="" placeholder="Enter Celsius" class="mystic-input-field">
+            <span class="mystic-icon">&#8451</span>
+        </div>
+        <div class="mystic-input-group" id="farenheit">
+            <input type="number" name="" placeholder="Enter Fahrenheit" class="mystic-input-field">
+            <span class="mystic-icon">&#8457</span>
+        </div>
+        <div class="mystic-input-group" id="kelvin">
+            <input type="number" name="" placeholder="Enter Kelvin" class="mystic-input-field">
+            <span class="mystic-icon">&#8490</span>
+        </div>
+        <div class="mystic-button">
+            <button onclick="clearAll()">CLEAR ALL</button>
+        </div>
+    </div>
+    <script src="TemperatureConverter.js"></script>
+</body>
+
+</html>
